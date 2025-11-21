@@ -155,12 +155,13 @@ body {
 
 #Proporty1, #Proporty2, #Proporty3 {
     background: var(--white);
+    cursor: pointer;
     width: 300px;
     display: inline-block;
     margin: 15px;
     border-radius: 15px;
     overflow: hidden;
-    box-shadow: 0 10px 20px rgba(42, 59, 79, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     vertical-align: top;
     text-align: left;
